@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background: #d8d6d6;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu a {
+  background: #fff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.introducao {
+  background: #fff;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  align-content: center;
+  justify-items: end;
+}
+
+.detalhe {
+  width: 60px;
+  height: 4px;
+  background: #c58c72;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
+
+.botao {
+  background: #c58c72;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.vantagens {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+}
+
+.vantagenscafezinho {
+  background: #fff;
+  padding: 30px;
+}
+
+.vantagenscafezinho-item {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  gap: 10px 20px;
+  padding: 10px;
+}
+
+.vantagenscafezinho-item img {
+  width: 30px;
+}
+
+.vantagenscafezinho-item p {
+  grid-column: 2;
+}
+
+.cafezinho {
+  color: #c58c72;
+  font-weight: bold;
+}
+
+.rodape {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
