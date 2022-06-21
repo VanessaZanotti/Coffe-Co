@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 p,
 h1,
 h2,
