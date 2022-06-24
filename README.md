@@ -5,7 +5,8 @@
   Posicionamento utilizando Grid, Flex-Box e Position.<br>
   Semântica no HTML utilizando tags como header, main, nav, lista desordenada (ul/li) e footer.<br>
   Verificação de unidades, tipografia e background.<br>
-  Inclusão de pseudo Classes e pseudo elements.
+  Inclusão de pseudo Classes e pseudo elements.<br>
+  Layout Responsivo
 
 
 ![Pagina projeto](img/pagina_.png)
