@@ -60,10 +60,25 @@ p {
   border: 0.188rem solid #c58c72;
 }
 
+@media (max-width: 40.62rem) {
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    justify-items: center;
+  }
+}
+
 .conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 62.5rem;
+}
+
+@media (max-width: 63.75rem) {
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
 }
 
 .introducao {
@@ -92,6 +107,18 @@ p {
   right: -1.88rem;
 }
 
+@media (max-width: 63.75rem) {
+  .introducao::after {
+    width: 0rem;
+    height: 0rem;
+  }
+
+  .introducao {
+    align-content: center;
+    justify-items: center;
+  }
+}
+
 .botao {
   background: #c58c72;
   color: #fff;
@@ -110,6 +137,12 @@ p {
   color: rgba(0, 0, 0, 0.4);
   text-align: right;
   padding: 2.5rem;
+}
+
+@media (max-width: 63.75rem) {
+  .vantagens {
+    text-align: center;
+  }
 }
 
 .vantagens {
